@@ -1,3 +1,14 @@
+Title: Mean Girls App
+
+Overview: This App is a repository of some of the most memorable characters in the movie Mean Girls with their hilarious quotes. The app navigates you through three routes - home, characters and create-a-character page. 
+
+Features:
+
+Homepage display with image and website title
+Display list of planets in the Star Wars universe
+Display list of characters in the Star Wars Universe
+Additional information on either planet or character when clicked
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +79,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+

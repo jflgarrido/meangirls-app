@@ -8,11 +8,11 @@ function CharacterCard({id, name, image, quote, onRemoveCard}) {
         onRemoveCard(id)
     }
     return(
-        <div>
+        <div className="centered-text">
             <h3>{name}</h3>
             <img src={image} alt={name} />
             <h3>{quote}</h3>
-            <button onClick={handleDeleteClick}>DELETE</button>
+            <button className="primary" onClick={handleDeleteClick}>DELETE</button>
         </div>
     )
 }

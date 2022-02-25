@@ -29,7 +29,7 @@ function CharacterList({characters, setCharacters}) {
     
     return (
         <section>
-            <h2>Characters</h2>
+            <h2 className="centered-text">Characters</h2>
             <div>{characterCards}</div>
         </section>
     )
