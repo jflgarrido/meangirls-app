@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {Route, Switch} from "react-router-dom";
 import NavBar from "./NavBar"
 import Home from "./Home"
@@ -6,15 +6,16 @@ import CharacterList from "./CharacterList"
 import NewCharacter from "./NewCharacter"
 
 function App() {
+    const [characters, setCharacters] = useState([]);
     return (
         <div>
             <NavBar />
             <Switch>
                 <Route exact path="/characters">
-                    <CharacterList />
+                    <CharacterList characters={characters} setCharacters={setCharacters} />
                 </Route>
                 <Route exact path="/characters/new">
-                    <NewCharacter />
+                    <NewCharacter characters={characters} setCharacters={setCharacters} />
                 </Route>
                 <Route exact path="/">
                     <Home />
