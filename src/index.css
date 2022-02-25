@@ -12,10 +12,19 @@ code {
     monospace;
 }
 
+nav {
+  margin-left:auto;
+  margin-right:auto;
+  width:1000px;
+  
+}
+
 .NavLink {
-  padding: 20px;
+  padding: 50px;
   text-decoration: none;
-  text-size-adjust:   
+  font-family: Comic Sans MS;
+  font-size: 35px;
+  border: 2px;   
 }
 
 section {
@@ -24,5 +33,10 @@ section {
 }
 
 .centered-text {
-  text-align: center
+  text-align: center;
+  font-family: Comic Sans MS
+}
+
+.comic {
+  font-family: Comic Sans MS;
 }
