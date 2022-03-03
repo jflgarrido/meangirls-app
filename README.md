@@ -1,7 +1,7 @@
-# Mean Girls App
+# The Mean Girls Burn Book
 
 ## Overview 
-This App is a repository of some of the most memorable characters in the movie Mean Girls with their hilarious quotes. The app navigates you through three links - home, characters and create-a-character page. 
+This app is a tribute to the Mean Girls movie by showing you a list of characters in a page called The Burn Book. The Burn Book contains a list of names, pictures and the most memorable lines of Mean Girls movie characters. In addition, the app allows you to add a new character to "burn" that will be shown in The Burn Book when submitted. 
 
 ## Technologies
 This app uses React JS with a json server.
