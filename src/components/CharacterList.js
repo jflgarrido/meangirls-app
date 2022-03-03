@@ -29,7 +29,7 @@ function CharacterList({characters, setCharacters}) {
     
     return (
         <>
-            <h1 className="centered-text">Characters</h1>
+            <h1 className="centered-text">🔥 🔥 🔥 🔥 🔥</h1>
             <div className="character-div" >{characterCards}</div>
         </>
     )

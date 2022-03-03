@@ -25,10 +25,11 @@ nav {
   padding-left: 25px;
   margin: 20px;
   text-decoration: none;
-  font-family: Comic Sans MS;
+  font-family: 'Pacifico', cursive;
+  color: palevioletred;
   font-size: 35px;
   border: 2px;
-  background-color: orange;
+  //background-color: orange;
   border-radius: 10px;   
 }
 
