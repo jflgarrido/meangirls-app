@@ -28,10 +28,10 @@ function CharacterList({characters, setCharacters}) {
     });
     
     return (
-        <section>
-            <h2 className="centered-text">Characters</h2>
-            <div>{characterCards}</div>
-        </section>
+        <>
+            <h1 className="centered-text">Characters</h1>
+            <div className="character-div" >{characterCards}</div>
+        </>
     )
     
 }
